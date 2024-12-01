@@ -7,16 +7,22 @@
     <style>
 
         table{
-            border: solid black 1px;
+            border: solid black 3px;
             border-collapse: collapse;
             padding: 15px;
             text-align: center;
         }
 
         th{
+            border: solid black 3px;
             width: 100px;
             background-color: purple;
             color: white;
+        }
+
+        td{
+            border: solid black 2px;
+            background-color: #e7d8f0ee;
         }
 
         td:hover{
@@ -53,7 +59,7 @@ function kalendarz(){
     $dnitygodnia = ['Poniedzialek', 'Wtorek', 'Sroda', 'Czwartek', 'Piatek', 'Sobota', 'Niedziela'];
     
     echo "<h1>Kalendarz " . date('F') . " " . date('Y') . "</h1>";
-    echo "<table border='1'><tr>";
+    echo "<table><tr>";
     
     foreach($dnitygodnia as $d){
         echo "<th>$d</th>";
