@@ -54,7 +54,7 @@
 </head>
 <body>
     <form method="POST">
-        <h2>Wybierz wybraną datę</h2>
+        <h2>Wybierz dowolną datę</h2>
         <input type="number" placeholder="dzien" min="0" max="31" name="dzien">
         <input type="number" placeholder="miesiąc" min="0" max="12" name="miesiac">
         <input type="number" placeholder="rok" min="0" max="9999" name="rok">
