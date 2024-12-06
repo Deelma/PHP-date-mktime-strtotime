@@ -27,6 +27,7 @@
 
         td:hover{
             background-color: purple;
+            color: white;
         }
 
         #dzisiaj{
