@@ -36,9 +36,32 @@
             color: white;
         }
 
+        input, select{
+            border: none;
+            border-bottom: solid purple 2px;
+        }
+
     </style>
 </head>
 <body>
+    <form action="kalendarz.php" method="post">
+        <select name="miesiac">
+            <option value="styczen">styczeń</option>
+            <option value="luty">luty</option>
+            <option value="marzec">marzec</option>
+            <option value="kwiecien">kwiecien</option>
+            <option value="maj">maj</option>
+            <option value="czerwiec">czerwiec</option>
+            <option value="lipiec">lipiec</option>
+            <option value="sierpien">sierpien</option>
+            <option value="wrzesien">wrzesien</option>
+            <option value="pazdziernik">pazdziernik</option>
+            <option value="listopad">listopad</option>
+            <option value="grudzien">grudzien</option>
+        </select>
+        Rok <input name="rok" type="number" min="0" max="9999">
+        <input type="button" value="przeslij">
+    </form>
     
 </body>
 </html>
